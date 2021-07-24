@@ -1,0 +1,160 @@
+.main_body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.main_body .top {
+    border: var(--border);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_body .top .top_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_body .top .top_content .left {
+    width: 40px;
+    /* height: 40px; */
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+.main_body .top .top_content .left a {
+    text-align: center;
+
+}
+
+.main_body .top .top_content .left a i {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.main_body .top .top_content .center {
+    border: 1px solid yellow;
+    flex: 1;
+}
+
+.main_body .top .top_content .center form {
+    position: relative;
+    padding: 11px 6px;
+    box-sizing: border-box;
+}
+
+.main_body .top .top_content .center form input {
+    width: 100%;
+    border: 1px solid red;
+    height: 33px;
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main_body .top .top_content .center form button {
+    position: absolute;
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    font-size: 17px;
+}
+
+.main_body .top .top_content .right {
+    width: 40px;
+    /* height: 40px; */
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.main_body .top .top_content .right a {
+    text-align: center;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.main_body .mid {
+    flex: 1;
+    border: 1px solid blue;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    overflow-y: scroll;
+}
+
+.main_body .mid .content_body {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+    overflow-y: scroll;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* .main_body .mid .content_body .content_aliment {} */
+
+/* .main_body .mid .content_body{} */
+.main_body .bottom {
+    border: var(--border);
+    height: 60px;
+    width: 100%;
+}
+
+.main_body .bottom .botom_content{
+    /* justify-content: space-evenly; */
+    transform: translateY(4%);
+}
+.main_body .bottom .botom_content ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin: 0px 10px 0px 0px; */
+
+}
+/* .main_body .bottom .botom_content ul li{
+    margin: 0px 15px;
+} */
+.main_body .bottom .botom_content ul li a{
+    display: block;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+    width: 60px;
+}
+.main_body .bottom .botom_content ul li a i{
+    line-height: 35px;
+    font-size: 20px;
+    display: block;
+}
+.main_body .bottom .botom_content ul li a span{
+    display: block;
+    font-size: 15px;
+}
